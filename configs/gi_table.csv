@@ -1,0 +1,142 @@
+keyword,gi,weight,category
+white bread,75,4,staple
+whole wheat bread,74,4,staple
+bread crumbs,70,3,staple
+bread,73,4,staple
+bagel,72,4,staple
+tortilla,52,4,staple
+pita,68,4,staple
+cracker,70,3,staple
+pizza dough,60,4,staple
+all-purpose flour,71,4,staple
+all purpose flour,71,4,staple
+whole wheat flour,70,4,staple
+bread flour,71,4,staple
+cake flour,71,4,staple
+self-rising flour,71,4,staple
+flour,71,4,staple
+cornstarch,85,2,staple
+corn starch,85,2,staple
+cornmeal,69,4,staple
+polenta,68,4,staple
+semolina,60,4,staple
+couscous,65,4,staple
+bulgur,48,4,staple
+quinoa,53,4,staple
+barley,28,4,staple
+millet,71,4,staple
+basmati rice,58,4,staple
+brown rice,68,4,staple
+wild rice,57,4,staple
+jasmine rice,89,4,staple
+long grain rice,73,4,staple
+white rice,73,4,staple
+rice noodles,53,4,staple
+rice,73,4,staple
+spaghetti,49,4,staple
+macaroni,47,4,staple
+pasta,49,4,staple
+noodles,55,4,staple
+egg noodles,55,4,staple
+lasagna,47,4,staple
+rolled oats,55,4,staple
+oatmeal,55,4,staple
+oats,55,4,staple
+cornflakes,81,4,staple
+corn flakes,81,4,staple
+cereal,70,4,staple
+granola,55,3,staple
+pancake mix,67,4,staple
+popcorn,65,3,staple
+potato chips,56,2,staple
+sweet potato,63,4,staple
+sweet potatoes,63,4,staple
+yam,54,4,staple
+potatoes,78,4,staple
+potato,78,4,staple
+corn kernels,52,3,staple
+sweet corn,52,3,staple
+corn,52,3,staple
+white sugar,65,3,sugar
+granulated sugar,65,3,sugar
+brown sugar,64,3,sugar
+powdered sugar,65,3,sugar
+confectioners sugar,65,3,sugar
+sugar,65,3,sugar
+honey,61,3,sugar
+maple syrup,54,3,sugar
+molasses,55,3,sugar
+corn syrup,75,3,sugar
+agave,15,3,sugar
+jam,51,2,sugar
+jelly,51,2,sugar
+chocolate chips,40,2,sugar
+chocolate,40,2,sugar
+ice cream,51,2,dairy
+milk,39,2,dairy
+yogurt,41,2,dairy
+yoghurt,41,2,dairy
+coconut milk,,,ignore
+almond milk,,,ignore
+soy milk,34,2,dairy
+lentils,32,3,legume
+lentil,32,3,legume
+chickpeas,28,3,legume
+garbanzo,28,3,legume
+kidney beans,24,3,legume
+black beans,30,3,legume
+pinto beans,39,3,legume
+navy beans,38,3,legume
+white beans,31,3,legume
+lima beans,32,3,legume
+baked beans,48,3,legume
+beans,30,3,legume
+split peas,25,3,legume
+green peas,48,2,legume
+peas,48,2,legume
+snap peas,,,ignore
+peanut butter,14,1,nut
+peanuts,14,1,nut
+cashews,22,1,nut
+apple,36,2,fruit
+applesauce,41,2,fruit
+banana,51,2,fruit
+orange juice,50,2,fruit
+orange,43,2,fruit
+grapes,46,2,fruit
+strawberries,40,2,fruit
+blueberries,53,2,fruit
+raspberries,32,2,fruit
+pineapple,59,2,fruit
+watermelon,76,2,fruit
+mango,51,2,fruit
+peach,42,2,fruit
+pear,38,2,fruit
+cherries,22,2,fruit
+raisins,64,2,fruit
+dates,42,2,fruit
+cranberries,45,2,fruit
+carrots,39,1,veg
+carrot,39,1,veg
+beets,64,1,veg
+beet,64,1,veg
+pumpkin,75,2,veg
+parsnip,52,1,veg
+tomatoes,15,1,veg
+tomato,15,1,veg
+onion,15,1,veg
+broccoli,15,1,veg
+cauliflower,15,1,veg
+spinach,15,1,veg
+zucchini,15,1,veg
+mushrooms,15,1,veg
+cabbage,15,1,veg
+lettuce,15,1,veg
+cucumber,15,1,veg
+bell pepper,15,1,veg
+winter squash,51,2,veg
+butternut squash,51,2,veg
+almond flour,,,ignore
+rice vinegar,,,ignore
+rice wine,,,ignore
+sugar substitute,,,ignore
