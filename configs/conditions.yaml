@@ -1,0 +1,67 @@
+# Condition profiles for the health module (Phase 4).
+# Each constraint:  feature, limit, scale, weight, source
+#   scale: "daily" -> limit is a DAILY budget; per-meal limit = limit * meal_share
+#          "none"  -> limit already applies to one serving / is a percentage
+# Features are computed per serving in src/health.py.
+meal_share: 0.333          # design assumption: one recipe serving ~ one third of a day
+
+conditions:
+  none:
+    label: "No specific condition"
+    constraints: {}
+
+  diabetes:
+    label: "Diabetes / blood-sugar control"
+    constraints:
+      gl_est:
+        limit: 19           # GL >= 20 is classed "high" per serving
+        scale: none
+        weight: 2.0
+        source: "Standard GL bands per serving: low <=10, medium 11-19, high >=20"
+      sugar_pct_kcal:
+        limit: 10           # % of calories from sugar
+        scale: none
+        weight: 1.0
+        source: "WHO free-sugars guideline (<10% energy). Proxy: dataset gives TOTAL sugars"
+
+  hypertension:
+    label: "Hypertension / low sodium"
+    constraints:
+      sodium_mg:
+        limit: 2000
+        scale: daily
+        weight: 2.0
+        source: "WHO: <2000 mg sodium per day"
+
+  heart_healthy:
+    label: "Heart-healthy"
+    constraints:
+      sat_fat_pct_kcal:
+        limit: 6
+        scale: none
+        weight: 2.0
+        source: "AHA: <6% of calories from saturated fat"
+      sodium_mg:
+        limit: 2000
+        scale: daily
+        weight: 1.0
+        source: "WHO: <2000 mg sodium per day"
+      sugar_pct_kcal:
+        limit: 10
+        scale: none
+        weight: 1.0
+        source: "WHO free-sugars guideline (<10% energy), total-sugar proxy"
+
+  weight_loss:
+    label: "Weight loss"
+    constraints:
+      calories:
+        limit: 1500         # DESIGN ASSUMPTION (user can override), not a clinical guideline
+        scale: daily
+        weight: 2.0
+        source: "Assumed 1500 kcal/day target; user-adjustable"
+      sugar_pct_kcal:
+        limit: 10
+        scale: none
+        weight: 1.0
+        source: "WHO free-sugars guideline (<10% energy), total-sugar proxy"
